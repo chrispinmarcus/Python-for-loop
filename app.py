@@ -1,4 +1,7 @@
-command = ""
-while command.lower() != "quit":
+#infinite loop
+while True:
     command = input(">")
-    print("ECHO", command)
+    print("ECHO",command)
+    if command.lower() == "quit":
+        break
+
