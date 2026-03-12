@@ -1,9 +1,9 @@
-#function
-def greet():
-    print("Hi There")
+#argument
+def greet(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
     print("welcome aboard!")
 
-    
-greet()
+
+greet("Jean Chrispin","Ndongozi")
 
 
